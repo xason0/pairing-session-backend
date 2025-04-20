@@ -4,10 +4,11 @@
   "engines": {
     "npm": ">=9.7.2",
     "node": ">=20.0.0"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
+  }
+"scripts": {
+  "build": "echo 'No build step required'",
+  "start": "node index.js"
+}},
   "dependencies": {
     "baileys": "^6.7.16",
     "qrcode": "^1.5.3",
